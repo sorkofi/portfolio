@@ -6,9 +6,21 @@
 }
 
 .top-bar {
-
+   position: absolute;
+}
+.menu {
+   
 }
 
-.header {
+.button-global {
+   margin: 0px 12px 0px 12px;
+   padding: 4px 16px;
+}
 
+
+.header {
+   background: #141434;
+   color: darkgrey;
+   
+   height: 100vh;
 }
