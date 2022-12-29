@@ -13,7 +13,7 @@ html {
    position: fixed;
    align-items: center;
    right: 0;
-   margin-right: 36px;
+   margin-right: 10vw;
    margin-top: 36px;
 }
 .top-bar img {
@@ -69,10 +69,11 @@ html {
 }
 .header .name {
    color: white;
+   margin-left: 10vw;
 }
 .header .description {
    color: white;
-   margin-right: 64px;
+   margin-right: 10vw;
 }
 
 .yellow {
