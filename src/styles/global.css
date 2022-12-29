@@ -48,6 +48,7 @@
 .button-global:hover {
    background: rgb(118, 118, 118);
    color: black;
+   cursor: pointer;
 }
 .button-global:active {
    color: floralwhite;
