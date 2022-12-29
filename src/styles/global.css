@@ -8,32 +8,6 @@ html {
    font-family: 'Roboto Mono', monospace;
 }
 
-.header {
-   background: #212121;
-   color: darkgrey;
-   
-   height: 600px;
-
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-}
-.header h1 {
-   margin: 28px;
-}
-.header .name {
-   color: white;
-   margin-left: 10vw;
-}
-.header .description {
-   color: white;
-   margin-right: 10vw;
-}
-
-.yellow {
-   color: darkgoldenrod;
-}
-
 .middle {
    background: #282828;
    color: darkgrey;
