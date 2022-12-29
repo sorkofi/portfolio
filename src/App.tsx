@@ -30,7 +30,8 @@ function App() {
       </div>
       
       <div className="header">
-        <p>header</p>
+        <h1 className="name">Kinan<br />Principe<span className="yellow">.</span></h1>
+        <h1 className="description">Front End Web<br />Developer</h1>
       </div>
 
       <div className="middle">

@@ -10,7 +10,7 @@ html {
 
 .top-bar {
    display: flex;
-   position: absolute;
+   position: fixed;
    align-items: center;
    right: 0;
    margin-right: 36px;
@@ -19,11 +19,6 @@ html {
 .top-bar img {
    margin: 0px 4px 0px 4px;
    width: 28px;
-
-}
-
-.menu {
-   
 }
 
 .divider {
@@ -64,6 +59,24 @@ html {
    color: darkgrey;
    
    height: 600px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.header h1 {
+   margin: 28px;
+}
+.header .name {
+   color: white;
+}
+.header .description {
+   color: white;
+   margin-right: 64px;
+}
+
+.yellow {
+   color: darkgoldenrod;
 }
 
 .middle {
