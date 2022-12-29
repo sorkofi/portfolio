@@ -1,15 +1,20 @@
 
 
-import reactLogo from './assets/react.svg'
+import reactLogo from "./assets/react.svg";
 
-import './styles/global.css'
+import "./styles/global.css";
 
 const menus = [
   "Home",
   "About",
   "Skills",
   "Projects"
-]
+];
+const socials = [
+  "./assets/",
+  "aa",
+  "aa"
+];
 
 function App() {
   
@@ -18,14 +23,21 @@ function App() {
 
       <div className="top-bar">
         {
-          menus.map((menus) => <button className="button-global menu">{menus}</button>)
+          menus.map((menus) => (
+            <button className="button-global menu">{menus}</button>
+          ))
+        }
+        <div className="divider" />
+        {
+          socials.map((sm) => (
+            <img src={sm} />
+          ))
         }
       </div>
       
       
       <div className="header">
         <p>header</p>
-        <button className='button-global'>header</button>
       </div>
 
     </div>
