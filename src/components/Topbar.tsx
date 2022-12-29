@@ -1,6 +1,11 @@
 import "../styles/topbar.css";
 
-export function Topbar(props: any) {
+interface Props {
+   menus: Array<string>,
+   img: string,
+}
+
+export function Topbar(props: Props) {
    return (
       <div className="top-bar">
         {
