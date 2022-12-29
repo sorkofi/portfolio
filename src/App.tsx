@@ -5,6 +5,7 @@ import reactLogo from "./assets/react.svg";
 import "./styles/global.css";
 
 import Github from "./assets/github.svg";
+import { Topbar } from "./components/Topbar";
 
 const menus = [
   "Home",
@@ -18,16 +19,7 @@ function App() {
   return (
     <div className="container">
 
-      <div className="top-bar">
-        {
-          menus.map((menus) => (
-            <button className="button-global menu">{menus}</button>
-          ))
-        }
-        <div className="divider" />
-        
-        <a target="_blank" href="https://github.com/sorkofi"><img src={Github} /></a>
-      </div>
+      <Topbar img={Github} menus={menus} />
       
       <div className="header">
         <h1 className="name">Kinan<br />Principe<span className="yellow">.</span></h1>
