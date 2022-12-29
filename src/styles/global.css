@@ -1,4 +1,7 @@
 * { margin: 0; }
+html {
+   background: #212121;
+}
 
 .container {
    font-family: 'Inter', sans-serif;
@@ -16,6 +19,7 @@
 .top-bar img {
    margin: 0px 4px 0px 4px;
    width: 28px;
+
 }
 
 .menu {
@@ -43,11 +47,11 @@
    font-size: large;
 
 
-   transition: background .2s;
+   transition: background .3s ease-in-out, color .3s ease-in-out;
 }
 .button-global:hover {
-   background: rgb(118, 118, 118);
-   color: black;
+   background: rgb(40, 40, 40);
+   color: rgb(152, 148, 139);
    cursor: pointer;
 }
 .button-global:active {
@@ -59,5 +63,12 @@
    background: #212121;
    color: darkgrey;
    
-   height: 100vh;
+   height: 600px;
+}
+
+.middle {
+   background: #282828;
+   color: darkgrey;
+   
+   height: 700px;
 }

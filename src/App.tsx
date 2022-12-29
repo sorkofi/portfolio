@@ -13,12 +13,6 @@ const menus = [
   "Projects"
 ];
 
-const socials = [
-  "aa",
-  "aa",
-  "aa"
-];
-
 function App() {
   
   return (
@@ -31,16 +25,16 @@ function App() {
           ))
         }
         <div className="divider" />
-        {
-          socials.map((sm) => (
-            <img src={Github} />
-          ))
-        }
+        
+        <a target="_blank" href="https://github.com/sorkofi"><img src={Github} /></a>
       </div>
-      
       
       <div className="header">
         <p>header</p>
+      </div>
+
+      <div className="middle">
+        <h1>hi</h1>
       </div>
 
     </div>
