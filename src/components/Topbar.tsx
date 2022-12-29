@@ -5,7 +5,7 @@ export function Topbar(props: any) {
       <div className="top-bar">
         {
             props.menus.map((menu: any) => {
-               <button className="button-global menu">{props.menus}</button>
+               return <button className="button-global menu">{menu}</button>
             })
         }
         <div className="divider" />
