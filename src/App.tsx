@@ -4,14 +4,17 @@ import reactLogo from "./assets/react.svg";
 
 import "./styles/global.css";
 
+import Github from "./assets/github.svg";
+
 const menus = [
   "Home",
   "About",
   "Skills",
   "Projects"
 ];
+
 const socials = [
-  "./assets/",
+  "aa",
   "aa",
   "aa"
 ];
@@ -30,7 +33,7 @@ function App() {
         <div className="divider" />
         {
           socials.map((sm) => (
-            <img src={sm} />
+            <img src={Github} />
           ))
         }
       </div>

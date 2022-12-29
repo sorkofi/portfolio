@@ -10,10 +10,12 @@
    position: absolute;
    align-items: center;
    right: 0;
+   margin-right: 36px;
    margin-top: 36px;
 }
 .top-bar img {
    margin: 0px 4px 0px 4px;
+   width: 28px;
 }
 
 .menu {
@@ -26,9 +28,6 @@
    margin: 0px 12px 0px 12px;
    
    background-color: gray;
-}
-.social-medias {
-   
 }
 
 .button-global {
