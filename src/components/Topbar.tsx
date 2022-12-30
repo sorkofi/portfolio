@@ -16,6 +16,7 @@ export function Topbar(props: Props) {
         <div className="divider" />
         
         <a target="_blank" href="https://github.com/sorkofi"><img src={props.img} /></a>
+        <a target="_blank" href="https://github.com/sorkofi"><img src={props.img} /></a>
       </div>
    );
 }

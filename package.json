@@ -2,10 +2,11 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "./assets/",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
