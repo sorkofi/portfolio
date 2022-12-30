@@ -6,11 +6,14 @@ interface Props {
 }
 
 export function Topbar(props: Props) {
+   const width = window.innerWidth;
+   const breakpoint = 620;
+
    return (
       <div className="top-bar">
         {
             props.menus.map((menu: any) => {
-               return <button className="button-global menu">{menu}</button>
+               return width < breakpoint ? <button className="button-global menu">{menu}</button> : <h1>too small</h1>;
             })
         }
         <div className="divider" />
